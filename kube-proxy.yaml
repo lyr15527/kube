@@ -40,7 +40,7 @@ spec:
             fieldRef:
               apiVersion: v1
               fieldPath: spec.nodeName
-        image: registry.cn-hangzhou.aliyuncs.com/lfy_k8s_images/kube-proxy:v1.20.9
+        image: k8simage/kube-proxy:v1.24.2
         imagePullPolicy: IfNotPresent
         name: kube-proxy
         resources: {}
