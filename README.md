@@ -1,3 +1,3 @@
 # kube
-kube-proxy:1.24.2
-flannel:0.14.0
+kube-proxy:v1.24.2
+flannel:v0.14.0
