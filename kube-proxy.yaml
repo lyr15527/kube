@@ -40,7 +40,7 @@ spec:
             fieldRef:
               apiVersion: v1
               fieldPath: spec.nodeName
-        image: k8simage/kube-proxy:v1.22.11
+        image: k8simage/kube-proxy:v1.20.9
         imagePullPolicy: IfNotPresent
         name: kube-proxy
         resources: {}
